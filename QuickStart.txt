@@ -44,8 +44,8 @@ Relax XRD Plotter — 使用说明（速览）/ Quick Start
 - 手动拖动 / Draggable：标签可鼠标拖动到任意位置，位置记忆不丢
 
 【完整手册 / Full manual】
-- 同目录下的「软件使用说明.md」（中文）与「软件使用说明(EN).md」（英文）为完整手册。
-  See 软件使用说明.md (Chinese) and 软件使用说明(EN).md (English) in this folder.
+- 同目录下的「Manual_zh.md」（中文）与「Manual_en.md」（英文）为完整手册。
+  See Manual_zh.md (Chinese) and Manual_en.md (English) in this folder.
 
 【作者信息 / Author】
 - 作者 / Author: qxh

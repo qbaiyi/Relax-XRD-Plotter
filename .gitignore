@@ -26,3 +26,6 @@ _smoke_*.png
 # OS
 Thumbs.db
 Desktop.ini
+
+# Xiaohongshu assets (not published to GitHub)
+小红书*

@@ -2,16 +2,17 @@
 
 > A free, open-source XRD (X-ray diffraction) plotting tool. · 免费、开源的 XRD 绘图小工具
 
+![cover](coverpage.png)
+
 ---
 
 ## English
 
 A lightweight XRD plotting tool built for everyday diffraction-data work.
-Made during a bored summer with WorkBuddy. Previously I found making overlay plots
+Made during a bored summer with kimi3 in WorkBuddy. Previously I found making overlay plots
 in SigmaPlot / Origin tedious — especially placing symbol markers on peaks.
 This tool is designed around my own workflow: simpler to use, easier to tweak.
-
-**It's a rough personal project, provided as-is — feel free to use it.**
+It's a rough personal project.
 
 ### Features
 - Drag-and-drop / open to import data with live preview
@@ -50,20 +51,17 @@ The repo root includes example files:
 - `passivated_ball_Pb.txt` — Bruker RAW exported `.txt` example
 
 ### Docs & License
-- Bilingual quick start: [使用说明.txt](使用说明.txt) (中文 / English)
-- Full manual (Chinese): [软件使用说明.md](软件使用说明.md)
-- Full manual (English): [软件使用说明(EN).md](软件使用说明(EN).md)
+- Bilingual quick start: [QuickStart.txt](QuickStart.txt) (中文 / English)
+- Full manual (Chinese): [Manual_zh.md](Manual_zh.md)
+- Full manual (English): [Manual_en.md](Manual_en.md)
+- Installation notes: [Install.txt](Install.txt)
 - License: [MIT License](LICENSE)
 
 ---
 
 ## 中文说明
 
-一款为日常 XRD 数据处理设计的轻量绘图软件。暑假无聊，用 WorkBuddy 做的。
-以前用 SigmaPlot、Origin 做叠图总觉得麻烦，尤其是想在峰上做符号标记时步骤繁琐；
-这个软件按自己平时的需要设计，操作更简单、调整更方便。
-
-**这是个粗糙的个人作品，按现状提供（as-is），大家自己拿去用。**
+一款为日常 XRD 数据处理设计的轻量绘图软件。暑假无聊，用 WorkBuddy 中的 kimi3 做的。以前用 SigmaPlot、Origin 做叠图总觉得麻烦，尤其是想在峰上做符号标记时步骤繁琐；这个软件按自己平时的需要设计，操作更简单、调整更方便。这是个粗糙的个人作品。
 
 ### 功能特性
 - 拖拽 / 打开导入数据，右侧实时预览
@@ -89,8 +87,8 @@ pip install -r requirements.txt
 python main.py
 ```
 
-详细说明见 [使用说明.txt](使用说明.txt)（中英文速览）、
-[软件使用说明.md](软件使用说明.md)（中文完整）、[软件使用说明(EN).md](软件使用说明(EN).md)（English）。
+详细说明见 [QuickStart.txt](QuickStart.txt)（中英文速览）、
+[Manual_zh.md](Manual_zh.md)（中文完整）、[Manual_en.md](Manual_en.md)（English）。
 
 ### 许可证
 [MIT License](LICENSE)
