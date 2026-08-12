@@ -9,7 +9,7 @@
 ## English
 
 A lightweight XRD plotting tool built for everyday diffraction-data work.
-Made during a bored summer with kimi3 in WorkBuddy. Previously I found making overlay plots
+Started learning vibe coding with kimi3 in WorkBuddy. Previously I found making overlay plots
 in SigmaPlot / Origin tedious — especially placing symbol markers on peaks.
 This tool is designed around my own workflow: simpler to use, easier to tweak.
 It's a rough personal project.
@@ -61,7 +61,7 @@ The repo root includes example files:
 
 ## 中文说明
 
-一款为日常 XRD 数据处理设计的轻量绘图软件。暑假无聊，用 WorkBuddy 中的 kimi3 做的。以前用 SigmaPlot、Origin 做叠图总觉得麻烦，尤其是想在峰上做符号标记时步骤繁琐；这个软件按自己平时的需要设计，操作更简单、调整更方便。这是个粗糙的个人作品。
+一款为日常 XRD 数据处理设计的轻量绘图软件。开始学习vibe coding，用 WorkBuddy 中的 kimi3 做的。以前用 SigmaPlot、Origin 做叠图总觉得麻烦，尤其是想在峰上做符号标记时步骤繁琐；这个软件按自己平时的需要设计，操作更简单、调整更方便。这是个粗糙的个人作品。
 
 ### 功能特性
 - 拖拽 / 打开导入数据，右侧实时预览
@@ -77,7 +77,7 @@ The repo root includes example files:
 - Python 依赖见 `requirements.txt`
 
 ### 安装方法
-**方式一：便携版（推荐，免安装）**
+**方式一：（推荐，免安装）**
 到 [Releases](../../releases) 下载 `Relax XRD Plotter v1.0.zip`，解压后双击
 `Relax XRD Plotter.exe` 即可使用。
 
