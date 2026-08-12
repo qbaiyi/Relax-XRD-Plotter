@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Build artifacts
+dist/
+build/
+build_old*/
+_old_relax_*/
+*.spec
+
+# Packaged release (published as a GitHub Release asset, not committed to repo)
+*.zip
+
+# WorkBuddy internal data
+.workbuddy/
+
+# Trae internal data
+.trae/
+
+# Temp smoke-test scripts
+_smoke_*.py
+_smoke_*.png
+
+# OS
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,68 @@
+Relax XRD Plotter 安装与使用说明
+
+一、适用场景
+本软件可以在没有 Python 环境的 Windows 电脑上运行。
+做法不是让对方先安装 Python，而是先在开发电脑上打包成可执行程序，再把打包后的整个文件夹复制到目标电脑使用。
+
+二、开发电脑如何打包
+1. 开发电脑需要先安装 Python 3。
+2. 在本项目文件夹内安装依赖：
+   py -3 -m pip install -r requirements.txt
+3. 运行打包脚本：
+   build.bat
+4. 打包完成后，会生成目录：
+   dist\Relax XRD Plotter\
+
+三、给没有 Python 的电脑如何使用
+1. 把整个文件夹：
+   dist\Relax XRD Plotter\
+   完整复制到目标电脑。
+2. 不要只复制其中的 exe 文件，必须把整个文件夹一起复制。
+3. 在目标电脑中打开该文件夹，双击：
+   Relax XRD Plotter.exe
+4. 即可直接运行，不需要另外安装 Python。
+
+四、首次运行可能遇到的情况
+1. 如果 Windows 弹出安全提示：
+   点击“更多信息” -> “仍要运行”。
+2. 如果软件被安全软件拦截：
+   请把程序文件夹加入信任或白名单后再次运行。
+3. 如果复制到 U 盘或桌面后无法正常打开：
+   建议先复制到本地硬盘目录，例如：
+   D:\Relax XRD Plotter\
+
+五、推荐分发方式
+建议把下面整个目录打包成压缩包再发给别人：
+dist\Relax XRD Plotter\
+
+对方收到后：
+1. 解压压缩包
+2. 打开文件夹
+3. 双击 Relax XRD Plotter.exe
+
+六、软件基本使用
+1. 启动软件后，可直接把数据文件拖到左侧区域导入。
+2. 也可以使用“添加文件”按钮导入 txt、csv、excel 数据。
+3. 左侧可以修改：
+   - 颜色
+   - 线宽
+   - 线型
+   - 图例
+   - 标峰
+   - 图尺寸
+   - 手动符号和文字
+4. 设置修改后，大多数内容会实时刷新显示。
+5. 图片可通过导出功能保存。
+
+七、如果开发电脑也没有 PyInstaller
+可先安装：
+py -3 -m pip install pyinstaller
+
+然后也可以手动打包：
+py -3 -m PyInstaller --noconfirm --onedir --windowed --name "Relax XRD Plotter" main.py
+
+八、建议一起提供的文件
+建议把以下内容一起发给使用者：
+1. Relax XRD Plotter 整个打包文件夹
+2. 示例数据文件
+3. 本安装说明

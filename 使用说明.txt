@@ -1,0 +1,53 @@
+Relax XRD Plotter — 使用说明（速览）/ Quick Start
+==================================================
+
+【运行方法 / How to run】
+1. 解压本压缩包到任意文件夹，双击 "Relax XRD Plotter.exe" 即可运行，无需安装 Python、无需联网。
+   Extract the zip anywhere and double-click "Relax XRD Plotter.exe". No Python install, no internet needed.
+2. 如杀毒软件误报，请将本文件夹添加到信任/白名单（PyInstaller 打包程序的常见现象）。
+   If your antivirus flags it, add this folder to its allow-list (common with PyInstaller builds).
+
+【系统要求 / System requirement】
+- Windows 7 / 8 / 10 / 11（64 位 / 64-bit）.
+
+【支持的数据格式 / Supported formats】
+- .csv / .txt / .dat / .xy / .xlsx（两列数据：2θ、强度；可多文件批量导入；多列强度自动拆为多曲线）
+  Two-column data: 2θ, intensity. Multi-column intensity auto-splits into multiple curves.
+- Bruker RAW4.00 / D8 导出的 .txt（头部含 ;RAW 标识与 [Data] 区块，自动识别读取）
+  Bruker RAW exported .txt (auto-detected, reads the [Data] block directly).
+- .xrdproj（本软件工程文件：保存数据 + 全部编辑状态，双击或拖入即可恢复继续编辑）
+  Project file: saves data + all edits; open or drop to resume editing.
+
+【快速开始 / Quick start】
+1. 点左侧「📂 打开数据文件」或把数据文件拖到「拖拽数据到这里」区域。
+   Click 「📂 Open Data File」 or drag a file onto the 「Drag data here」 zone.
+2. 在「📁 数据」调整图例名、颜色、单图/堆叠模式；在「🎨 绘图」调整图尺寸、坐标轴、标题、图例；在右侧「✳ 标注」设置标峰与手动标记。
+   Use the tabs to set legend name, color, overlay/stacked mode, size, axes, titles, legend; use the right panel for peaks & markers.
+3. 点图下方的「🔄 刷新绘图」实时预览。 Click 「🔄 Refresh Plot」 to preview.
+4. 点「💾 导出图片」保存 PNG / TIFF / SVG / PDF。 Click 「💾 Export Image」 to save.
+5. 点「📄 保存处理文件」把当前图的数据与全部编辑状态存为 .xrdproj 工程文件。
+   Click 「📄 Save Project」 to store data + edits as an .xrdproj file.
+
+【示例数据 / Sample data】（位于 示例数据\ 文件夹，可直接拖入）
+- sample_data.csv / sample_data2.csv：单条曲线常规示例
+- xrd_multi_column_demo.txt：一个文件内含多条谱线（演示叠加/堆叠）
+- xrd_multi_column_demo.xlsx：同上结构的 Excel 多谱图示例
+- passivated_ball_Pb.txt（Bruker RAW 导出）：演示 Bruker 仪器原始数据直接读取
+
+【界面布局 / Layout】
+- 左侧：数据 / 绘图 两个标签页；右侧：标注面板；图下方：刷新 / 导出 / 保存 三按钮；右上角：主题切换（9 套）
+  Left: Data / Plot tabs; Right: Annotate panel; Below plot: Refresh / Export / Save; Top-right: theme switch (9 themes).
+
+【图例位置三种模式 / Legend layouts】（图例设置里选择 / in Legend settings）
+- 集中图例 / Grouped：统一图例框，可选位置
+- 谱图上方 / Above curves：样品名标在曲线右上方，颜色随曲线
+- 手动拖动 / Draggable：标签可鼠标拖动到任意位置，位置记忆不丢
+
+【完整手册 / Full manual】
+- 同目录下的「软件使用说明.md」（中文）与「软件使用说明(EN).md」（英文）为完整手册。
+  See 软件使用说明.md (Chinese) and 软件使用说明(EN).md (English) in this folder.
+
+【作者信息 / Author】
+- 作者 / Author: qxh
+- 单位 / Affiliation: WIT
+- 邮箱 / Email: qbaiyi@qq.com
